@@ -268,6 +268,10 @@ package org.un.cava.birdeye.ravis.assets.icons {
 		[Embed(source="nodes/45.png")]
 	 	static public var n45Icon:Class;	 	
 
+		[Bindable]
+		[Embed(source="nodes/46.png")]
+		static public var n46Icon:Class;	
+		
 	 	// Edges
 	 	
 	 	[Bindable]
@@ -471,6 +475,9 @@ package org.un.cava.birdeye.ravis.assets.icons {
 		        case "45":
 			    	img.source = EmbeddedIcons.n45Icon;
 			        break;
+				case "46":
+					img.source = EmbeddedIcons.n46Icon;
+					break;
 		        case "rain":
 			    	img.source = EmbeddedIcons.rainIcon;
 			        break;
